@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.964c8a02.css",
+    "main.js": "/static/js/main.e817e25b.js",
+    "static/media/BlenderPro-Medium.ttf": "/static/media/BlenderPro-Medium.aa0028d9551c98c16a87.ttf",
+    "static/media/done.svg": "/static/media/done.d5d8f1ab9789e54744920bc722672a1a.svg",
+    "index.html": "/index.html",
+    "main.964c8a02.css.map": "/static/css/main.964c8a02.css.map",
+    "main.e817e25b.js.map": "/static/js/main.e817e25b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.964c8a02.css",
+    "static/js/main.e817e25b.js"
+  ]
+}

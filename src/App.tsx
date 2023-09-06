@@ -1,12 +1,12 @@
-import React, {BaseSyntheticEvent, useCallback, useEffect, useRef, useState} from 'react';
-import './App.scss';
-import {useDispatch, useSelector} from "react-redux";
+import React, {BaseSyntheticEvent, useEffect, useRef, useState} from 'react';
+import {useSelector} from "react-redux";
 import {RootState} from "./index";
 import {ToDoItem} from "./shared/ui/to-do-item/to-do-item";
-import {addTodo, Todo, toggleTodo} from "./core/store/to-do-slice";
+import { Todo } from "./core/store/to-do-slice";
 import { v4 as uuidv4 } from 'uuid';
 import {useTodos} from "./shared/hooks/use-todos";
 import {GetActiveTodos, GetDoneTodos} from "./shared/utils/ativeTabChanging";
+import './App.scss';
 
 
 function App() {
