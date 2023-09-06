@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import {useTodos} from "../shared/hooks/use-todos";
+import {useTodos} from "./shared/hooks/use-todos";
 import {renderHook} from "@testing-library/react";
 
 jest.mock('react-redux', () => ({
