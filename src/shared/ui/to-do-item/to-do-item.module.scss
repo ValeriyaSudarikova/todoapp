@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+  list-style-type: none;
+
+  border-bottom: 1px solid #9D9D9D;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  .text {
+    font-family: "Blender Pro";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: start;
+    display: block;
+  }
+
+  &.checked {
+    color: #9D9D9D;
+    transition: 0.1s;
+    text-decoration: line-through;
+  }
+
+  .icon {
+    display: block;
+    margin-left: 99px;
+    animation: imgIn 0.1s linear;
+  }
+}
+
+@keyframes imgIn {
+  from {width: 0;}
+  to {width: 30px;}
+}
